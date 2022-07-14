@@ -1,18 +1,16 @@
 {
   "name": "link-preview-tags",
-  "description": "Visualizar informações das meta tags de links",
   "version": "0.10.0",
+  "description": "Visualizar informações das meta tags de links",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "license": "MIT",
   "files": [
-    "lib"
+    "lib/**/*"
   ],
   "scripts": {
     "clean": "rimraf lib",
-    "build": "npm run clean && tsc",
-    "start": "node src/build/lib/index.js",
-    "dev": "ts-node-dev --prefer-ts true --no-notify --watch src --transpile-only --ignore-watch node_modules --respawn src/index.ts"
+    "build": "npm run clean && tsc"
   },
   "author": "Júnior Albuquerque",
   "repository": {
@@ -22,8 +20,7 @@
   "homepage": "https://github.com/JuniorAlbuquerque/link-preview-tags",
   "dependencies": {
     "axios": "^0.27.2",
-    "cheerio": "^1.0.0-rc.12",
-    "link-preview-tags": "^0.8.0"
+    "cheerio": "^1.0.0-rc.12"
   },
   "devDependencies": {
     "ts-node-dev": "^1.1.8",
