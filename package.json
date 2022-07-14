@@ -11,6 +11,12 @@
     "start": "node src/build/lib/index.js",
     "dev": "ts-node-dev --prefer-ts true --no-notify --watch src --transpile-only --ignore-watch node_modules --respawn src/index.ts"
   },
+  "author": "Júnior Albuquerque",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuniorAlbuquerque/link-preview-tags"
+  },
+  "homepage": "https://github.com/JuniorAlbuquerque/link-preview-tags",
   "dependencies": {
     "axios": "^0.27.2",
     "cheerio": "^1.0.0-rc.12"
