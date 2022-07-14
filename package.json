@@ -10,8 +10,7 @@
   ],
   "scripts": {
     "clean": "rimraf lib",
-    "build": "npm run clean && tsc",
-    "prepublish": "npm run build"
+    "build": "npm run clean && tsc"
   },
   "author": "Júnior Albuquerque",
   "repository": {
@@ -24,6 +23,7 @@
     "cheerio": "^1.0.0-rc.12"
   },
   "devDependencies": {
+    "@types/node": "^18.0.4",
     "ts-node-dev": "^1.1.8",
     "typescript": "^4.5.5"
   }
