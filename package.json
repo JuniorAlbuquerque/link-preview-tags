@@ -1,7 +1,7 @@
 {
   "name": "link-preview-tags",
   "description": "Visualizar informações das meta tags de links",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "src/build/lib/index.js",
   "types": "lib/index.d.ts",
   "license": "MIT",
