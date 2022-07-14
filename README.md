@@ -13,7 +13,7 @@ yarn add link-preview-tags
 import { getLinkData } from 'link-preview-tags';
 
 // example using my website
-getLinkData('https://jnr.vercel.app/')
+await getLinkData('https://jnr.vercel.app/')
 
 {
   description: 'My personal website',
