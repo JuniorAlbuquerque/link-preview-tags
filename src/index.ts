@@ -5,6 +5,10 @@ import { getPageContent } from "./utils/scrap"
 
 const getLinkData = async (url: string): Promise<PreviewLink> => {
   try {
+    if (!url.includes('https://')) {
+      throw new Error('url inválida')
+    }
+
     const pageContent = await getPageContent(url as string)
     const html = parseHtml(pageContent)
     const tags = getPreviewData(html)
