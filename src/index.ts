@@ -1,1 +1,1 @@
-export * from './getLinkData'
+export * from './teste'

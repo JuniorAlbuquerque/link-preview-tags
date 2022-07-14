@@ -2,10 +2,12 @@
   "name": "link-preview-tags",
   "description": "Visualizar informações das meta tags de links",
   "version": "0.9.0",
-  "main": "./lib/index.js",
-  "types": "./lib/index.d.ts",
-  "typings": "lib/index",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "license": "MIT",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "clean": "rimraf lib",
     "build": "npm run clean && tsc",
@@ -23,9 +25,6 @@
     "cheerio": "^1.0.0-rc.12",
     "link-preview-tags": "^0.8.0"
   },
-  "files": [
-    "lib/**/*"
-  ],
   "devDependencies": {
     "ts-node-dev": "^1.1.8",
     "typescript": "^4.5.5"
