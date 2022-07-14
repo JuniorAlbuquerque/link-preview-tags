@@ -3,8 +3,7 @@
     "target": "es2015",
     "module": "commonjs",
     "moduleResolution": "node",
-    "outDir": "./lib" /* Specify an output folder for all emitted files. */,
-    "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+    "outDir": "lib/" /* Specify an output folder for all emitted files. */,
     "skipLibCheck": true /* Skip type checking all .d.ts files. */,
     "strict": true,
     "esModuleInterop": true,
@@ -12,6 +11,9 @@
     "sourceMap": true,
     "baseUrl": ".",
   },
+  "files": [
+    "./src/index.ts"
+  ],
   "include": ["src"],
   "exclude": ["**/lib/*", "**/node_modules/*"]
 }
