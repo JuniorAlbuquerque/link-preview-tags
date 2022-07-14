@@ -21,6 +21,9 @@
     "axios": "^0.27.2",
     "cheerio": "^1.0.0-rc.12"
   },
+  "files": [
+    "lib/**/*"
+  ],
   "devDependencies": {
     "ts-node-dev": "^1.1.8",
     "typescript": "^4.5.5"
